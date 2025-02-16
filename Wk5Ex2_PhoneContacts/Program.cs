@@ -48,7 +48,7 @@ namespace Wk5Ex2_PhoneContacts
 
 
         // method to validate user string input
-        public static string HandleStringInput(string aPrompt = "Write your sentence/string: ", string anErrorMessage = "Something went wrong on our end. Please enter a valid string input.\n")
+        static string HandleStringInput(string aPrompt = "Write your sentence/string: ", string anErrorMessage = "Something went wrong on our end. Please enter a valid string input.\n")
         {
             // initialize return value
             string returnValue = "";
